@@ -1,4 +1,37 @@
 
+---
+
+## ✅ Development Checklist
+
+### **Phase 1: Project Setup**
+- [ ] Use **Manifest V3** to support Chrome + Firefox
+- [ ] Create base directory and file layout
+- [ ] Initialize development environment with **Flox**
+  - [ ] Install Node
+  - [ ] Install `webextension-polyfill`
+- [ ] Initialize Git repository
+
+---
+
+### **Phase 2: Core Dark Mode**
+- [ ] Define `manifest.json`:
+  - [ ] Content script applies on all pages
+  - [ ] `"matches": ["<all_urls>"]`
+  - [ ] Add temporary extension icon
+- [ ] Implement `content.js` to inject dark mode stylesheet
+- [ ] Write `styles.css`:
+  - [ ] Dark background
+  - [ ] Light text colors
+  - [ ] Fix buttons, links, form controls
+
+---
+
+### **Phase 3: Popup Toggle UI**
+Add minimal GUI to enable/disable dark mode.
+- [ ] Popup.html
+- [ ] Popup.css
+- [ ] Popup.js
+
 - [ ] Create UI toggle switch
 - [ ] Store state using `browser.storage.local`
 - [ ] Ensure toggle updates page styling dynamically
@@ -18,28 +51,4 @@
 - [ ] Write documentation for usage + installation
 - [ ] Package extension for Chrome (`.zip`)
 - [ ] Package extension for Firefox (`.xpi`)
-- [ ] Tag Git release: `v0.1`
-
----
-
-## 🚀 What v0.1 Includes
-| Feature | Status |
-|--------|--------|
-| Global dark mode styling | ✅ Basic version planned |
-| Toggle ON/OFF UI | ✅ Planned |
-| Chrome support | ✅ Planned |
-| Firefox support | ✅ Planned |
-| Zero tracking | ✅ Core requirement |
-| Lightweight & clean code | ✅ Core requirement |
-
----
-
-## 🧭 Next Step
-Choose the **dark mode strategy** for `styles.css`:
-
-**Reply with one:**
-1. Simple CSS Dark Theme (stable and clean)
-2. Smart Filter (invert + exclusions)
-3. Hybrid (simple now, smart later)
-
-
+- [ ] Tag Git release of 'V0.1'
