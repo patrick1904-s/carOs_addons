@@ -4,8 +4,8 @@
 ## ✅ Development Checklist
 
 ### **Phase 1: Project Setup**
-- [ ] Use **Manifest V3** to support Chrome + Firefox
-- [ ] Create base directory and file layout
+- [X] Use **Manifest V3** to support Chrome + Firefox
+- [X] Create base directory and file layout
 - [ ] Initialize development environment with **Flox**
   - [ ] Install Node
   - [ ] Install `webextension-polyfill`
