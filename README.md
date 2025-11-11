@@ -6,10 +6,10 @@
 ### **Phase 1: Project Setup**
 - [X] Use **Manifest V3** to support Chrome + Firefox
 - [X] Create base directory and file layout
-- [ ] Initialize development environment with **Flox**
-  - [ ] Install Node
-  - [ ] Install `webextension-polyfill`
-- [ ] Initialize Git repository
+- [X] Initialize development environment with **Flox**
+  - [X] Install Node
+  - [X] Install `webextension-polyfill`
+- [X] Initialize Git repository
 
 ---
 
