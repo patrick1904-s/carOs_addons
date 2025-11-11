@@ -14,15 +14,15 @@
 ---
 
 ### **Phase 2: Core Dark Mode**
-- [ ] Define `manifest.json`:
-  - [ ] Content script applies on all pages
-  - [ ] `"matches": ["<all_urls>"]`
-  - [ ] Add temporary extension icon
-- [ ] Implement `content.js` to inject dark mode stylesheet
-- [ ] Write `styles.css`:
-  - [ ] Dark background
-  - [ ] Light text colors
-  - [ ] Fix buttons, links, form controls
+- [X] Define `manifest.json`:
+  - [X] Content script applies on all pages
+  - [X] `"matches": ["<all_urls>"]`
+  - [X] Add temporary extension icon
+- [X] Implement `content.js` to inject dark mode stylesheet
+- [X] Write `styles.css`:
+  - [X] Dark background
+  - [X] Light text colors
+  - [X] Fix buttons, links, form controls
 
 ---
 
