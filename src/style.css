@@ -32,4 +32,9 @@ img, video, picture, svg {
   filter: none !important;
   background-color: transparent !important;
 }
+html[data-nightshift="on"], 
+html[data-nightshift="on"] body {
+  background-color: #121212 !important;
+  color: #e5e5e5 !important;
+}
 
