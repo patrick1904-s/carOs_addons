@@ -28,13 +28,13 @@
 
 ### **Phase 3: Popup Toggle UI**
 Add minimal GUI to enable/disable dark mode.
-- [ ] Popup.html
-- [ ] Popup.css
-- [ ] Popup.js
+- [X] Popup.html
+- [X] Popup.css
+- [X] Popup.js
 
-- [ ] Create UI toggle switch
-- [ ] Store state using `browser.storage.local`
-- [ ] Ensure toggle updates page styling dynamically
+- [X] Create UI toggle switch
+- [X] Store state using `browser.storage.local`
+- [X] Ensure toggle updates page styling dynamically
 
 ---
 
