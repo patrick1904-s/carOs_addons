@@ -40,7 +40,7 @@ Add minimal GUI to enable/disable dark mode.
 
 ### **Phase 4: Cross-Browser Support**
 - [ ] Test on Chrome
-- [ ] Test on Firefox
+- [X] Test on Firefox
 - [ ] Replace `chrome.*` calls with `browser.*`
 - [ ] Use `webextension-polyfill` for API compatibility
 
